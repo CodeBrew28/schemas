@@ -6,4 +6,4 @@ const FilesSchema = new Schema({
     owner: { type: SchemaTypes.ObjectId, ref: 'Team' }
 })
   
-module.exports = m => m.model('Files', FilesScheama)
+module.exports = m => m.model('Files', FilesSchema)
